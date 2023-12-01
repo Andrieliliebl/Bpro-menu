@@ -1,3 +1,8 @@
+@font-face {
+    font-family: NeuePlac;
+    src: url(assets/fontes/);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,18 +16,19 @@
     padding: 2vh;
 }
 
-.bg-black {
-    background-color: #2e2d2c;
+.border-red {
+    border-color: #ee0404;
+    border-style: solid;
 }
 
-.bg-gray {
-    background-color: #e6e6e5;
+.bg-platinum {
+    background-color: #E6E6E5;
 }
 
-.bg-white {
-    background-color: #FFFFFF;
+.bg-white-smoke {
+    background-color: #f3f3f2;
 }
 
-.bg-pink {
-    background-color: #ee4475;
+.nav-style {
+    box-shadow: 0 0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.2) !important
 }
