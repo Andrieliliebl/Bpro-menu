@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+  <title>Menu</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand logo-style" href="#"><img src="assets/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+        <div class="d-flex flex-lg-row flex-md-column col-12 justify-content-between">
+
+          <ul class="navbar-nav menu-data ps-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                BproProject
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><strong>Projetos</strong></a></li>
+                <ul>
+                  <li>Documentos</li>
+                  <li>Itens Obsoletos</li>
+                  <li>Eventos</li>
+                </ul>
+                <li><a class="dropdown-item" href="#"><strong>Aprovações</strong></a></li>
+                <ul>
+                  <li>Aprovações</li>
+                  <li>Revisar</li>
+                  <li>Revisão Pendente</li>
+                </ul>
+                <li><a class="dropdown-item" href="#"><strong>Lista Mestra</strong></a></li>
+                <ul>
+                  <li>Geral</li>
+                  <li>Aprovados</li>
+                </ul>
+                <li><a class="dropdown-item" href="#"><strong>Visualização em BIM</strong></a></li>
+                <li><a class="dropdown-item" href="#"><strong>Análise técnica de projetos</strong></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                BproManager
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><strong>Acompanhamentos</strong></a></li>
+                <ul>
+                  <li>360°</li>
+                  <li>Drone</li>
+                  <li>Logístico</li>
+                  <li>Produção</li>
+                </ul>
+                <li><a class="dropdown-item" href="#"><strong>Sustentabilidade</strong></a></li>
+                <ul>
+                  <li>Indicadores de projeto</li>
+                  <li>Gestão de ativos</li>
+                </ul>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                BproField
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><strong>Planejamento de obra</strong></a></li>
+                <ul>
+                  <li>Cronograma de obra</li>
+                  <li>Planejamento semanal</li>
+                  <li>Planejamentos criados</li>
+                  <li>Lista de atividades</li>
+                  <li>Controle de produção</li>
+                  <li>Atribuições</li>
+                </ul>
+                <li><a class="dropdown-item" href="#"><strong>Medição</strong></a></li>
+                <ul>
+                  <li>Medição</li>
+                </ul>
+                <li><a class="dropdown-item" href="#"><strong>Qualidade</strong></a></li>
+                <ul>
+                  <li>Controle de qualidade</li>
+                </ul>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                BproLog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Controle logístico</a></li>
+                <li><a class="dropdown-item" href="#">Acompanhamento visual</a></li>
+                <li><a class="dropdown-item" href="#">Acompanhamento logístico</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav menu-projects">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Escolha a obra</option>
+              <option value="1">CPVICES</option>
+              <option value="2">Tirolesa</option>
+              <option value="3">Sanepar Bacacheri</option>
+              <option value="4">BPRO</option>
+              <option value="5">IBMP</option>
+              <option value="6">Pró vida</option>
+              <option value="7">RAC Paraguay</option>
+              <option value="8">Teste</option>
+              <option value="9">Hospital Nossa Senhora das Graças</option>
+              <option value="10">Ed. Punta Norte</option>
+              <option value="11">Codesarrollo</option>
+              <option value="12">ETL Miringuava - Sanepar</option>
+            </select>
+          </ul>
+
+          <ul class="navbar-nav menu-profile pe-4">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"><i class="bi bi-person"></i>
+                Perfil
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><strong>Login</strong></a></li>
+                <li><a class="dropdown-item" href="#"><strong> Configurações </strong></a></li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+</body>
+
+</html>

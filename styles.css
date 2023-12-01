@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E6E6E5;
+}
+
+.logo-style img {
+    max-width: auto;
+    max-height: 10vh;
+    padding: 2vh;
+}
+
+.bg-black {
+    background-color: #2e2d2c;
+}
+
+.bg-gray {
+    background-color: #e6e6e5;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+.bg-pink {
+    background-color: #ee4475;
+}
